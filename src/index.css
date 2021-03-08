@@ -1,0 +1,51 @@
+body {
+  background-image: url("https://l.icdbcdn.com/oh/93d07639-c942-4c62-a4f1-8e494b614f0a.jpg?w=1140&mode=max&f=32");
+  background-size: cover;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  color: yellow;
+}
+
+#mainTitle {
+  font-size: 50px;
+  font-family: "Fascinate", cursive;
+}
+
+#imgHeaderDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#headerImg {
+  width: 1000px;
+  height: 400px;
+}
+
+#infoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#infoP {
+  width: 1000px;
+  height: 400px;
+  background-color: #4fbeff;
+}
+
+#contactDiv {
+  display: flex;
+  justify-content: center;
+}
+
+#contactInfo {
+  width: 1000px;
+  height: 200px;
+  background-color: #3cc74a;
+}
